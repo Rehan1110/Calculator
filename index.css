@@ -19,6 +19,7 @@
   background-color: white;
   font-size: 20px;
   padding-right: 6px;
+  margin-bottom: 0px;
 }
 .display-container{
   padding:25px 14px;
@@ -27,6 +28,7 @@
   padding-left: 14px;
   padding-right: 14px;
   width: 310px;
+  margin-top: 0px;
 }
 .button{
   width: 60px;
@@ -36,4 +38,12 @@
   border: 1px solid grey;
   border-radius: 4px;
   cursor: pointer;
+}
+.button-wk{
+  background-color: black;
+  color: white;
+}
+.button-op{
+  background-color: red;
+  color: white;
 }
