@@ -1,22 +1,39 @@
 .container{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   background-color: wheat;
 }
 .button-box{
   display: grid;
-  grid-template-columns: repeat(4,40px);
+  grid-template-columns: repeat(4,45px);
   padding-top: 40px;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
 }
 .Display-box{
-  width: 260px;
+  width: 310px;
   height:40px;
   border: 2px solid grey;
   border-radius: 5px;
   background-color: white;
   font-size: 20px;
+  padding-right: 6px;
 }
 .display-container{
   padding:25px 14px;
+}
+.button-box{
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 310px;
+}
+.button{
+  width: 60px;
+  height: 50px;
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
 }
