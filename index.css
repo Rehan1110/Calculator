@@ -11,7 +11,11 @@
 }
 .Display-box{
   width: 260px;
-  height:30px;
+  height:40px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
 }
 .display-container{
   padding:25px 14px;
