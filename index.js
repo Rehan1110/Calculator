@@ -1,4 +1,4 @@
-function TakeValue(value){
-  console.log(value);
+let DisplayBox=document.querySelector('.Display-box');
+function appendValue(v){
+ DisplayBox.value=v;
 }
-let value='';
