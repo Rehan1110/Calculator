@@ -8,11 +8,11 @@ function ClearDisplay(){
   currentValue='';
   DisplayBox.value=' ';
 }
-// function Calculate(){
-//   try{
-//     currentValue = eval(currentValue).toString();
-//     DisplayBox.value=currentValue;
-//   } catch(error){
-//     DisplayBox.value='Error';
-//   }
-// }
+function Calculate(){
+  try{
+    currentValue = eval(currentValue).toString();
+    DisplayBox.value=currentValue;
+  } catch(error){
+    DisplayBox.value='Error';
+  }
+}
