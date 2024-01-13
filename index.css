@@ -1,3 +1,10 @@
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  padding: auto;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -12,6 +19,7 @@
   padding-top: 40px;
   grid-column-gap: 40px;
   grid-row-gap: 20px;
+  padding-bottom: 20px;
 }
 .Display-box{
   width: 310px;
